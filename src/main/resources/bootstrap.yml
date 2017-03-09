@@ -1,0 +1,7 @@
+spring:
+ application:
+  name: SpringCloudConfig-Client
+
+cloud:
+ services:
+  registrationMethod: route

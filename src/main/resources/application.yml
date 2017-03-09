@@ -1,0 +1,14 @@
+# HTTP Server
+server:
+ port: 8889
+ 
+# Spring properties
+spring:
+  profiles: 
+    active: dev
+
+#Disable HTTP Basic Authentication
+security:
+  basic:
+    enabled: false
+ 
